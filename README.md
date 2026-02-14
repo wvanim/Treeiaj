@@ -1,6 +1,6 @@
 # **Treeiaj**, system topology:
 
-Treeiaj : 'j' = Json format
+Treeiaj : 'ia' = prompt / 'j' = Json format
 
 Document format designed for AI prompts: a tree of typed components
 
@@ -27,6 +27,8 @@ This separation allows AI to process each section with the right "mindset":
 - Read references = assemble relationships
 
 **Result**: deterministic parsing, focused attention, fewer errors.
+
+---
 
 ## Concept
 
