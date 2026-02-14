@@ -2,25 +2,45 @@
 
 Treeiaj : 'j' = Json format
 
-## Présentation
-
-It is an empty container, similar to the original idea of the PC:
-a neutral box filled with electronic cards.
-
-Treeia AI acts as a carrier for typed, XML-like structures.
-
-To understand the limits of Treeia, imagine a diagram that represents a tree:
-not to describe its content, but only to define its shape.# Treeiaj
 Document format designed for AI prompts: a tree of typed components
 
-### **Rules**
+## The Problem
 
-Based on JSON, this prompt enforces a **deterministic structure**: typed components, canonical ordering, and fixed layout for direct lookup.
+With free-form JSON, AI must:
+- Guess the structure and role of each element
+- Keep the entire context in memory simultaneously
+- Interpret relationships between components
 
-#### **Key Benefits of Treeiaj**
-- **Flexibility**: Treeiaj acts as a universal container, capable of transporting a wide variety of typed structures without being tied to a specific content format.
-- **Determinism**: The typed and ordered nature of Treeiaj ensures predictable behavior, making it reliable for AI processing and data exchange.
-- **Extensibility**: New types or components can be introduced in a controlled way, allowing the system to evolve while preserving backward compatibility.
+For complex prompts, this creates ambiguity and errors.
+
+## The Treeiaj Solution
+
+A deterministic format where **order and role are explicit**:
+
+1. **Types**: structure definitions (the vocabulary)
+2. **Script**: concrete instances (the data)  
+3. **References**: links between elements (the graph)
+
+This separation allows AI to process each section with the right "mindset":
+- Read types = learn the vocabulary
+- Read script = validate and build objects
+- Read references = assemble relationships
+
+**Result**: deterministic parsing, focused attention, fewer errors.
+
+## Concept
+
+Treeiaj acts as a universal container, similar to the original PC idea:
+a neutral box that receives typed components.
+
+[Keep car/passenger images here]
+
+### Key Benefits
+
+- **Determinism**: AI knows where to look for information
+- **Flexibility**: transports different structures without being tied to a specific format
+- **Extensibility**: new types possible while maintaining compatibility
+
 
 ### Main components
 
