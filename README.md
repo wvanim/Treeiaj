@@ -13,9 +13,14 @@ To understand the limits of Treeia, imagine a diagram that represents a tree:
 not to describe its content, but only to define its shape.# Treeiaj
 Document format designed for AI prompts: a tree of typed components
 
-## Rule
+### **Rules**
 
-Based on JSON, this prompt enforces a deterministic structure: typed components, canonical ordering, and fixed layout for direct lookup.
+Based on JSON, this prompt enforces a **deterministic structure**: typed components, canonical ordering, and fixed layout for direct lookup.
+
+#### **Key Benefits of Treeiaj**
+- **Flexibility**: Treeiaj acts as a universal container, capable of transporting a wide variety of typed structures without being tied to a specific content format.
+- **Determinism**: The typed and ordered nature of Treeiaj ensures predictable behavior, making it reliable for AI processing and data exchange.
+- **Extensibility**: New types or components can be introduced in a controlled way, allowing the system to evolve while preserving backward compatibility.
 
 ### Main components
 
