@@ -34,7 +34,7 @@ Based on JSON, this prompt enforces a **deterministic structure**: typed compone
 
 ## Sample : The Time/Space prompt is composed of two layers:
 
-- **treeia**: a vehicle (illustrated by the blue car), a generic container capable of carrying different contents.
+- **treeiaj**: a vehicle (illustrated by the blue car), a generic container capable of carrying different contents.
 <img width="300" height="300" alt="vehicule_bleu_300px" src="https://github.com/user-attachments/assets/fe005434-3257-4a70-9129-6e3f6da64a29" />
 
 -
