@@ -33,7 +33,13 @@ This separation allows AI to process each section with the right "mindset":
 Treeiaj acts as a universal container, similar to the original PC idea:
 a neutral box that receives typed components.
 
-[Keep car/passenger images here]
+- **treeiaj**: a vehicle (illustrated by the blue car), a generic container capable of carrying different contents.
+<img width="300" height="300" alt="vehicule_bleu_300px" src="https://github.com/user-attachments/assets/fe005434-3257-4a70-9129-6e3f6da64a29" />
+
+-
+- **tispi**: the internal geometry (illustrated as the driver in the second image), representing the Time/Space structure itself (Piece/Face, Timeline, Tracks, Keys).
+<img width="300" height="300" alt="passager_bleu_300px" src="https://github.com/user-attachments/assets/ec6977bc-1b54-4c19-ad7b-0d3fb1ae481b" />
+
 
 ### Key Benefits
 
@@ -51,15 +57,6 @@ a neutral box that receives typed components.
 | References (IDs)      | Links nodes together by identifier, forming a typed graph |
 
 ---
-
-## Sample : The Time/Space prompt is composed of two layers:
-
-- **treeiaj**: a vehicle (illustrated by the blue car), a generic container capable of carrying different contents.
-<img width="300" height="300" alt="vehicule_bleu_300px" src="https://github.com/user-attachments/assets/fe005434-3257-4a70-9129-6e3f6da64a29" />
-
--
-- **tispi**: the internal geometry (illustrated as the driver in the second image), representing the Time/Space structure itself (Piece/Face, Timeline, Tracks, Keys).
-<img width="300" height="300" alt="passager_bleu_300px" src="https://github.com/user-attachments/assets/ec6977bc-1b54-4c19-ad7b-0d3fb1ae481b" />
 
 ### Sample prompt
 
