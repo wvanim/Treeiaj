@@ -1,4 +1,4 @@
-# **Treeiaj**, system topology:
+# **Treeiaj**:
 
 Treeiaj : 'ia' = prompt / 'j' = Json format
 
